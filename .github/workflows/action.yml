@@ -1,0 +1,12 @@
+name: Assignment Action
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 26ds1000008@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
